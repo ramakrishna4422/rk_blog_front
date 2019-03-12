@@ -1,0 +1,53 @@
+.container, .container .row{
+    text-align: center;
+}
+.account, .posts{
+    background-color: white;
+    padding: 20px;
+}
+
+.posts{
+    height: auto;
+
+}
+
+.account{
+    height: 600px;
+}
+.col-4, .col-8, .col-md-8, .col-xl-8, .col-sm-8,
+.col-md-4, .col-xl-4, .col-sm-4{
+    margin: opx;
+    padding: opx;
+}
+
+.btn. .btn-primary{
+float: left;
+width: 100PX;
+}  
+
+.mat-tab-group{
+    margin: auto;
+}
+
+.post{
+    margin: 10px 0px;
+    border: 2px solid gray;
+    padding: 15px;
+
+}
+
+.post h5{
+    text-align: left;
+    float: left;
+    margin: 0px 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.post p{
+    float: right;
+}
+.mat-icon{
+    cursor: pointer;
+    display: block;
+}

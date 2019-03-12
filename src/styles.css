@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+    background-color: rgb(245, 245, 245)
+}
+
+@media (min-width: 576px) { 
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container{
+        width: 100%;
+        margin: auto;
+
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container{
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+ }
+
+/* /Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container{
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+ }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
